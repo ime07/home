@@ -85,11 +85,15 @@ map <Down> <Nop>
 map <Left> <Nop>
 map <Right> <Nop>
 map <BS> <Nop>
+map <Enter> <Nop>
+map <C-Enter> <Nop>
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 inoremap <BS> <Nop>
+inoremap <Enter> <Nop>
+inoremap <C-Enter> <Nop>
 " noremap h b
 " noremap l w
 
