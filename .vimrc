@@ -69,10 +69,6 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBuffs = 1
 command Vf VimFiler -buffer-name=explorer -split -simple -winwidth=35 -toggle -no-quit
-map <C-t> :tabnew<CR>
-map <C-n> :tabnext<CR>
-map <C-p> :tabprevious<CR>
-map :qq<CR> :tabc<CR>
 map :Sh<CR> :VimShell<CR>
 map :Gs<CR> :InsertBothGetterSetter<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -124,6 +120,7 @@ set clipboard=unnamed
 set directory=/tmp
 set laststatus=2
 set hlsearch
+set noswapfile
 set viminfo='20,\"200,:20,%,n~/.viminfo
 if exists('$TMUX')
   let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
